@@ -43,9 +43,13 @@ else
     {
         Console.WriteLine("Telebe adi diplom alib");
     }
-    if (yekun_qiymeti > 84 && yekun_qiymeti <= 100)
+    if (yekun_qiymeti > 84 && yekun_qiymeti <= 94)
     {
         Console.WriteLine("Telebe seref diplomu alib");
+    }
+    if (yekun_qiymeti > 94 && yekun_qiymeti <= 100)
+    {
+        Console.WriteLine("Telebe yuksek seref diplomu alib");
     }
 }
 
